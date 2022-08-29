@@ -6,26 +6,29 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./css/tailwind.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
   <title>Document</title>
 </head>
 
-<body>
-  <header class="bg-softPink">
-    <nav class="w-72.563 h-2.5 flex flex-row justify-around">
-      <div>Cafe Street</div>
-      <div>
-        <a href="">About us</a>
-        <a href="">Our product</a>
-        <a href="">Delivery</a>
+<body class="font-body">
+  <header class="bg-softPink flex justify-center">
+    <nav class="w-nav h-nav flex flex-row justify-around items-center">
+      <div><span class="text-orange">Cafe</span> Street</div>
+      <div class="h-nav__menu w-nav__menu flex justify-between">
+        <a class="text-menu__item text-orange" href="">About us</a>
+        <a class="text-menu__item" href="">Our product</a>
+        <a class="text-menu__item" href="">Delivery</a>
       </div>
-      <div>
-        <input type="text">
+      <div class="h-full">
+        <input class="" type="text">
       </div>
     </nav>
   </header>
   <section class="bg-softPink">
     <div>
-      <h1>Enjoy your coffe before your activity</h1>
+      <h1>Enjoy your <span class="text-orange">coffe</span> before your activity</h1>
       <p>
         Boost your productivity and build your mood with a glass of coffee in
         the morning
@@ -55,7 +58,8 @@
   <section>
     <h2>About us</h2>
     <h3>We provide quality coffee, and ready to deliver.</h3>
-    <p>We are a company that makes and distributes delicious drinks. our main product is made with a secret recipe and available in stores worldwide.</p>
+    <p>We are a company that makes and distributes delicious drinks. our main product is made with a secret recipe and
+      available in stores worldwide.</p>
     <button type="button">Get your coffe</button>
   </section>
   <section>
