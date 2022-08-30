@@ -551,42 +551,144 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.absolute {
+  position: absolute;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.mt-\[2\.25rem\] {
+  margin-top: 2.25rem;
+}
+
+.mt-\[8\.75rem\] {
+  margin-top: 8.75rem;
+}
+
+.ml-\[3\.125rem\] {
+  margin-left: 3.125rem;
+}
+
+.mt-\[5\.125rem\] {
+  margin-top: 5.125rem;
+}
+
+.ml-\[3\.063rem\] {
+  margin-left: 3.063rem;
+}
+
+.mt-\[2\.375rem\] {
+  margin-top: 2.375rem;
+}
+
+.mt-\[8\.938rem\] {
+  margin-top: 8.938rem;
+}
+
 .flex {
   display: flex;
 }
 
-.h-nav {
+.h-\[2\.5rem\] {
   height: 2.5rem;
 }
 
-.h-nav__menu {
+.h-\[1\.875rem\] {
+  height: 1.875rem;
+}
+
+.h-\[1\.438rem\] {
+  height: 1.438rem;
+}
+
+.h-\[1\.688rem\] {
   height: 1.688rem;
 }
 
-.max-h-full {
-  max-height: 100%;
+.h-full {
+  height: 100%;
 }
 
-.max-h-max {
-  max-height: -webkit-max-content;
-  max-height: -moz-max-content;
-  max-height: max-content;
+.h-\[18\.75rem\] {
+  height: 18.75rem;
 }
 
-.min-h-full {
-  min-height: 100%;
+.h-\[2\.875rem\] {
+  height: 2.875rem;
 }
 
-.w-nav {
+.h-\[1\.125rem\] {
+  height: 1.125rem;
+}
+
+.h-\[26rem\] {
+  height: 26rem;
+}
+
+.h-\[34\.875rem\] {
+  height: 34.875rem;
+}
+
+.h-\[24\.625rem\] {
+  height: 24.625rem;
+}
+
+.w-\[72\.563rem\] {
   width: 72.563rem;
 }
 
-.w-nav__menu {
+.w-\[3\.069rem\] {
+  width: 3.069rem;
+}
+
+.w-\[5\.625rem\] {
+  width: 5.625rem;
+}
+
+.w-\[20\.125rem\] {
   width: 20.125rem;
 }
 
-.flex-row {
-  flex-direction: row;
+.w-\[30\.563rem\] {
+  width: 30.563rem;
+}
+
+.w-\[10\.625rem\] {
+  width: 10.625rem;
+}
+
+.w-\[4\.375rem\] {
+  width: 4.375rem;
+}
+
+.w-\[32\.919rem\] {
+  width: 32.919rem;
+}
+
+.w-\[79\.25rem\] {
+  width: 79.25rem;
+}
+
+.w-\[35\.563rem\] {
+  width: 35.563rem;
+}
+
+.flex-col {
+  flex-direction: column;
 }
 
 .items-center {
@@ -605,20 +707,126 @@ video {
   justify-content: space-around;
 }
 
+.rounded-\[2\.188rem\] {
+  border-radius: 2.188rem;
+}
+
+.rounded-\[2\.063rem\] {
+  border-radius: 2.063rem;
+}
+
 .bg-softPink {
   --tw-bg-opacity: 1;
   background-color: rgb(246 235 218 / var(--tw-bg-opacity));
+}
+
+.bg-brown {
+  --tw-bg-opacity: 1;
+  background-color: rgb(47 33 5 / var(--tw-bg-opacity));
 }
 
 .font-body {
   font-family: "Poppins", sans-serif;
 }
 
-.text-menu__item {
-  font-size: 1.063rem;
+.text-\[1\.125rem\] {
+  font-size: 1.125rem;
+}
+
+.text-\[3rem\] {
+  font-size: 3rem;
+}
+
+.text-\[0\.875rem\] {
+  font-size: 0.875rem;
+}
+
+.text-\[0\.75rem\] {
+  font-size: 0.75rem;
+}
+
+.text-\[3\.375rem\] {
+  font-size: 3.375rem;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.leading-\[1\.688rem\] {
+  line-height: 1.688rem;
+}
+
+.leading-\[4\.5rem\] {
+  line-height: 4.5rem;
+}
+
+.leading-\[1\.313rem\] {
+  line-height: 1.313rem;
+}
+
+.leading-\[1\.125rem\] {
+  line-height: 1.125rem;
 }
 
 .text-orange {
   --tw-text-opacity: 1;
   color: rgb(255 144 43 / var(--tw-text-opacity));
+}
+
+.text-brown {
+  --tw-text-opacity: 1;
+  color: rgb(47 33 5 / var(--tw-text-opacity));
+}
+
+.text-gray {
+  --tw-text-opacity: 1;
+  color: rgb(126 125 122 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-yellow {
+  --tw-text-opacity: 1;
+  color: rgb(244 174 38 / var(--tw-text-opacity));
+}
+
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.decoration-orange {
+  -webkit-text-decoration-color: #ff902b;
+          text-decoration-color: #ff902b;
+}
+
+h2 {
+  line-height: 3rem;
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+p {
+  font-size: 1.125rem;
+  line-height: 1.688rem;
+}
+
+.p__coffe--details {
+  border-radius: 42px;
+  border-width: 0.438rem;
+  border-color: rgb(255 255 255 / 0.4);
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  text-align: center;
+  line-height: 3.563rem;
+  --tw-text-opacity: 1;
+  color: rgb(47 33 5 / var(--tw-text-opacity));
 }

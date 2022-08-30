@@ -5,26 +5,19 @@ module.exports = {
     fontFamily:{
       'body':['"Poppins"', 'sans-serif']
     },
-    fontSize:{
-      'menu__item': '1.063rem'
-    },
     colors:{
       'softPink':'#f6ebda',
-      'orange':'#ff902b'
+      'orange':'#ff902b',
+      'brown':'#2f2105',
+      'gray':'#7e7d7a',
+      'white':'#ffffff',
+      'yellow':'#f4ae26',
+      'black':'#000000'
     },
     container:{
       center:true
     },
-    width:{
-        'nav':'72.563rem',
-        'nav__menu': '20.125rem'
-      },
-      height: {
-        'nav': '2.5rem',
-        'nav__menu': '1.688rem'
-      },
     extend: {
-      
     },
   },
   plugins: [],
