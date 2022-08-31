@@ -12,3 +12,9 @@ p{
 .p__coffe--details{
   @apply bg-white text-brown rounded-[42px] text-center leading-[3.563rem] border-[0.438rem] border-white/40
 }
+.menu__item {
+  @apply text-[18px] px-4
+}
+.card{
+  @apply bg-white w-[355px] h-[385px] border-[6px] mx-[19px] rounded-[12px] border-white/40 z-20
+}
