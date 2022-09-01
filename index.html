@@ -42,44 +42,101 @@
       </p>
       <div>
         <button type="button"
-          class="bg-brown rounded-[33px] text-white w-[170px] h-[46px] font-semibold text-[14px]">Order
+          class="bg-brown rounded-[33px] text-white w-[170px] h-[46px] px-[32px] py-[12px] font-semibold text-[14px]">Order
           now</button>
         <a class="w-[70px] ml-[50px] text-yellow font-bold text-[12px]">More
           menu</a>
       </div>
       <div>
-       <img class="absolute left-0 mt-[40px] h-[394px] w-[569px]" src="./assets/coffeBean.png"> 
+        <img class="absolute left-0 mt-[40px] h-[394px] w-[569px]" src="./assets/coffeBean.png">
       </div>
     </div>
     <div class="mr-[135px] z-10 mt-[82px] w-[435px] h-[416px] flex flex-col justify-center items-center">
-      <img src="./assets/classicCoffe.png" >
+      <img src="./assets/classicCoffe.png">
     </div>
   </section>
   <section class="bg-softPink h-[415px]">
     <div class="w-[1268px] ml-[135px] pb-[32px] pt-[143px] z-10">
-      <h2 class="text-[32px] font-semibold">Popular <span class="underline decoration-orange">Now</span></h2>
+      <h2 class="text-[32px]">Popular <span class="underline decoration-orange">Now</span></h2>
     </div>
   </section>
   <section>
     <div class="flex items-center justify-center mt-[-192.5px]">
-      <div class="card">card</div>
-      <div class="card">card</div>
-      <div class="card">card</div>
+      <div class="card">
+        <img class="card__img" src="./assets/vanillaLatte.png">
+        <div class="card__div--body">
+          <h5 class="text-[24px]">Vanilla Latte</h5>
+          <p>21K</p>
+        </div>
+        <div>
+          <button class="card__div--btn">Hot</button>
+          <button class="card__div--btn">Cold</button>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card__img" src="./assets/espresso.png">
+        <div class="card__div--body">
+          <h5 class="text-[24px]">Espresso</h5>
+          <p>12K</p>
+        </div>
+        <div>
+          <button class="card__div--btn">Hot</button>
+          <button class="card__div--btn">Cold</button>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card__img" src="./assets/hazelnutLatte.png">
+        <div class="card__div--body">
+          <h5 class="text-[24px]">Hazelnut Latte</h5>
+          <p>23K</p>
+        </div>
+        <div>
+          <button class="card__div--btn">Hot</button>
+          <button class="card__div--btn">Cold</button>
+        </div>
+      </div>
       <img class="absolute mt-[87px]" src="./assets/Rectangle 2.png">
-    </div> 
-    <h2>How to use delivery service</h2>
-    <div>card</div>
-    <div>card</div>
-    <div>card</div>
+    </div>
+    <div class="mt-[207px]">
+      <h2 class="text-[32px] ml-[135px]">How to use delivery <span class="underline decoration-orange">service</span>
+      </h2>
+      <div class="flex justify-center items-center pb-[208px]">
+        <div class="delliverCard">
+          <img src="./assets/chooseCoffeLogo.png">
+          <div class="deliverCard__body">
+            <h5 class="deliverCard__body--title">Choose your coffe</h5>
+            <p class="text-[18px]">there are 20+ coffees for you</p>
+          </div>
+        </div>
+        <div class="delliverCard">
+          <img src="./assets/foodTruck.png">
+          <div class="deliverCard__body">
+            <h5 class="deliverCard__body--title">we delivery it to you</h5>
+            <p class="text-[18px]">Choose delivery service</p>
+          </div>
+        </div>
+        <div class="delliverCard">
+          <img src="./assets/coffeeCup.png">
+          <div class="deliverCard__body">
+            <h5 class="deliverCard__body--title">Enjoy your coffee</h5>
+            <p class="text-[18px]">Enjoy with the bests coffes</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
-  <section>
-    <h2>About us</h2>
-    <h3>We provide quality coffee, and ready to deliver.</h3>
-    <p>
-      We are a company that makes and distributes delicious drinks. our main
-      product is made with a secret recipe and available in stores worldwide.
-    </p>
-    <button type="button">Get your coffe</button>
+  <section class="bg-softPink flex justify-around">
+      <img class="mt-[-88px] pb-[62.78px]" src="./assets/aboutCoffe.png">
+    <div class="w-[478px] flex flex-col justify-center items-start">
+      <h2 class="text-[32px] pb-[23.75px]">About <span class="underline decoration-orange">us</span></h2>
+      <h3 class="font-semibold text-[24px] w-[348px] pb-[15.75px]">We provide quality coffee, and ready to deliver.</h3>
+      <p class="pb-[31.74px] w-[478px]">
+        We are a company that makes and distributes delicious drinks. our main
+        product is made with a secret recipe and available in stores worldwide.
+      </p>
+      <button class="btn__aboutUs" type="button">Get your coffe</button>
+    </div>
+    <img class="absolute" src="./assets/bgCup.png">
   </section>
   <section>
     <h2>Special menu for you</h2>

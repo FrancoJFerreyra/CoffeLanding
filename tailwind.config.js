@@ -8,6 +8,7 @@ module.exports = {
     colors:{
       'softPink':'#f6ebda',
       'orange':'#ff902b',
+      'softOrange':'f9d9aa',
       'brown':'#2f2105',
       'gray':'#7e7d7a',
       'white':'#ffffff',

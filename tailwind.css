@@ -2,19 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
-h2{
-  @apply leading-[3rem] text-black
+h2,h5{
+  @apply font-semibold text-black
 }
 p{
-  @apply leading-[1.688rem] text-[1.125rem]
+  @apply text-[1.125rem]
 }
 
 .p__coffe--details{
-  @apply bg-white text-brown rounded-[42px] text-center leading-[3.563rem] border-[0.438rem] border-white/40
+  @apply bg-white text-brown rounded-[42px] text-center border-[7px] border-white/40
 }
 .menu__item {
   @apply text-[18px] px-4
 }
 .card{
-  @apply bg-white w-[355px] h-[385px] border-[6px] mx-[19px] rounded-[12px] border-white/40 z-20
+  @apply bg-white w-[355px] border-[6px] mx-[19px] rounded-[12px] border-white/40 z-20 flex flex-col items-center
+}
+.card__img{
+  @apply pt-[24px] 
+}
+.card__div--body{
+  @apply flex w-full justify-around pt-[19px]
+}
+.card__div--btn{
+  @apply w-[64px] h-[32px] border-yellow border-2 text-yellow rounded-[8px] p-[10px] text-[16px] leading-[10px] font-semibold
+}
+.delliverCard{
+  @apply w-[370px] flex flex-col items-center mx-[30px] mt-[32px]
+}
+.deliverCard__body{
+  @apply pt-[17px] pb-[8px] w-full text-center
+}
+.deliverCard__body--title{
+  @apply font-semibold text-[24px]
+}
+.btn__aboutUs{
+  @apply w-[142px] h-[38px] text-yellow bg-brown rounded-[33px] text-[12px] font-bold
 }
