@@ -2,13 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+body{
+  @apply font-body
+}
 h2,h5{
   @apply font-semibold text-black
 }
 p{
-  @apply text-[1.125rem]
+  @apply text-[18px]
 }
-
 .p__coffe--details{
   @apply bg-white text-brown rounded-[42px] text-center border-[7px] border-white/40
 }
@@ -16,13 +18,13 @@ p{
   @apply text-[18px] px-4
 }
 .card{
-  @apply bg-white w-[355px] border-[6px] mx-[19px] rounded-[12px] border-white/40 z-20 flex flex-col items-center
+  @apply bg-white w-[355px] border-[6px] rounded-[12px] border-white/40 z-20 flex flex-col items-center
 }
 .card__img{
   @apply pt-[24px] 
 }
 .card__div--body{
-  @apply flex w-full justify-around pt-[19px]
+  @apply flex w-full justify-between pt-[19px] items-center px-[30px]
 }
 .card__div--btn{
   @apply w-[64px] h-[32px] border-yellow border-2 text-yellow rounded-[8px] p-[10px] text-[16px] leading-[10px] font-semibold
@@ -38,4 +40,16 @@ p{
 }
 .btn__aboutUs{
   @apply w-[142px] h-[38px] text-yellow bg-brown rounded-[33px] text-[12px] font-bold
+}
+.specialCard__div--p{
+  @apply text-[14px] font-semibold w-[161.45px] text-gray pt-[5px] pb-[21px]
+}
+.opinionCard{
+  @apply w-[225.9px] border-[6px] border-opinionBorderCard
+}
+.opinionCard__div{
+  @apply w-[238.5px] border-[6px] border-opinionBorderCard rounded-[8px] mt-[-100.25px] ml-[36.6px] mb-[28.25px] bg-opinionP absolute
+}
+.opinionCard__div--p{
+  @apply pl-[18px] w-[213px] text-[14px]
 }

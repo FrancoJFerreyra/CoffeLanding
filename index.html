@@ -12,7 +12,7 @@
   <title>Document</title>
 </head>
 
-<body class="font-body">
+<body>
   <header class="bg-softPink flex justify-center">
     <nav class="w-full flex justify-around items-center mt-[2.25rem] z-10">
       <div class="flex items-center">
@@ -62,35 +62,35 @@
   </section>
   <section>
     <div class="flex items-center justify-center mt-[-192.5px]">
-      <div class="card">
+      <div class="card mx-[19px] shadow-popCard">
         <img class="card__img" src="./assets/vanillaLatte.png">
         <div class="card__div--body">
           <h5 class="text-[24px]">Vanilla Latte</h5>
           <p>21K</p>
         </div>
-        <div>
+        <div class="w-full pl-[30px] pb-[30px] pt-[12px]">
           <button class="card__div--btn">Hot</button>
           <button class="card__div--btn">Cold</button>
         </div>
       </div>
-      <div class="card">
+      <div class="card mx-[19px] shadow-popCard">
         <img class="card__img" src="./assets/espresso.png">
         <div class="card__div--body">
           <h5 class="text-[24px]">Espresso</h5>
           <p>12K</p>
         </div>
-        <div>
+        <div class="w-full pl-[30px] pb-[30px] pt-[12px]">
           <button class="card__div--btn">Hot</button>
           <button class="card__div--btn">Cold</button>
         </div>
       </div>
-      <div class="card">
+      <div class="card mx-[19px] shadow-popCard">
         <img class="card__img" src="./assets/hazelnutLatte.png">
         <div class="card__div--body">
           <h5 class="text-[24px]">Hazelnut Latte</h5>
           <p>23K</p>
         </div>
-        <div>
+        <div class="w-full pl-[30px] pb-[30px] pt-[12px]">
           <button class="card__div--btn">Hot</button>
           <button class="card__div--btn">Cold</button>
         </div>
@@ -125,8 +125,8 @@
       </div>
     </div>
   </section>
-  <section class="bg-softPink flex justify-around">
-      <img class="mt-[-88px] pb-[62.78px]" src="./assets/aboutCoffe.png">
+  <section class="bg-about bg-cover flex justify-around">
+    <img class="mt-[-88px] pb-[62.78px]" src="./assets/aboutCoffe.png">
     <div class="w-[478px] flex flex-col justify-center items-start">
       <h2 class="text-[32px] pb-[23.75px]">About <span class="underline decoration-orange">us</span></h2>
       <h3 class="font-semibold text-[24px] w-[348px] pb-[15.75px]">We provide quality coffee, and ready to deliver.</h3>
@@ -136,32 +136,116 @@
       </p>
       <button class="btn__aboutUs" type="button">Get your coffe</button>
     </div>
-    <img class="absolute" src="./assets/bgCup.png">
   </section>
   <section>
-    <h2>Special menu for you</h2>
-    <div>card</div>
-    <div>card</div>
-    <div>card</div>
-    <div>card</div>
-    <div>card</div>
-    <div>card</div>
+    <h2 class="text-[32px] mt-[120px] ml-[135px]">Special menu <span class="underline decoration-orange">for you</span>
+    </h2>
+    <div class="mt-[31.83px] flex justify-center pb-[120px]">
+      <div class="w-[1148px] grid grid-cols-3 grid-rows-2 justify-items-center gap-y-[40px]">
+        <div class="card shadow-specialCard">
+          <img class="card__img" src="./assets/sandwich.png">
+          <div class="card__div--body">
+            <h5 class="text-[24px]">Sandwich</h5>
+            <p>12K</p>
+          </div>
+          <div class="w-full pl-[30px]">
+            <p class="specialCard__div--p">bread with meat and vegetables</p>
+          </div>
+        </div>
+        <div class="card shadow-specialCard">
+          <img class="card__img" src="./assets/hotMilk.png">
+          <div class="card__div--body">
+            <h5 class="text-[24px]">Hot Milk</h5>
+            <p>12K</p>
+          </div>
+          <div class="w-full pl-[30px]">
+            <p class="specialCard__div--p">Hot Milk with less sugar</p>
+          </div>
+        </div>
+        <div class="card shadow-specialCard">
+          <img class="card__img" src="./assets/coffeIceCream.png">
+          <div class="card__div--body">
+            <h5 class="text-[24px]">Coffe Ice Cream</h5>
+            <p>12K</p>
+          </div>
+          <div class="w-full pl-[30px]">
+            <p class="specialCard__div--p">Coffe with ice cream vanilla</p>
+          </div>
+        </div>
+        <div class="card shadow-specialCard">
+          <img class="card__img" src="./assets/capuccino.png">
+          <div class="card__div--body">
+            <h5 class="text-[24px]">Cappucino</h5>
+            <p>12K</p>
+          </div>
+          <div class="w-full pl-[30px]">
+            <p class="specialCard__div--p">Hot Cappucino</p>
+          </div>
+        </div>
+        <div class="card shadow-specialCard">
+          <img class="card__img" src="./assets/mocaccino.png">
+          <div class="card__div--body">
+            <h5 class="text-[24px]">Moccacinno</h5>
+            <p>12K</p>
+          </div>
+          <div class="w-full pl-[30px]">
+            <p class="specialCard__div--p">Hot Moccacino </p>
+          </div>
+        </div>
+        <div class="card shadow-specialCard">
+          <img class="card__img" src="./assets/waffleIcreCream.png">
+          <div class="card__div--body">
+            <h5 class="text-[24px]">Waffle Ice Crem</h5>
+            <p>12K</p>
+          </div>
+          <div class="w-full pl-[30px]">
+            <p class="specialCard__div--p">Wafle with Ice cream</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
-  <section>
-    <h2>What they say about us</h2>
-    <p>
-      We always provide the best service and always maintain the quality of
-      coffee
-    </p>
-    <div>card</div>
-    <div>card</div>
-    <div>card</div>
+  <section class="bg-opinion bg-no-repeat bg-70%">
+    <div class="ml-[135px] flex justify-between items-center py-[96px]">
+      <div class="w-[413px]">
+        <h2 class="text-[32px]">What they say about us</h2>
+        <p class="pt-[16px] text-gray w-[352px]">
+          We always provide the best service and always maintain the quality of
+          coffee
+        </p>
+      </div>
+      <div class="flex justify-between">
+        <div class="opinionCard mr-[40.76px]">
+          <img class="w-[214px] h-[279px]" src="./assets/opinion1.png">
+          <div class="opinionCard__div">
+            <h5 class="pl-[18px]">Naura</h5>
+            <p class="opinionCard__div--p">I really love the cappucino, the coffee was very smooth</p>
+          </div>
+        </div>
+        <div class="opinionCard mx-[40.76px]">
+          <img class="w-[214px] h-[279px]" src="./assets/opinion2.png">
+          <div class="opinionCard__div">
+            <h5 class="pl-[18px]">John</h5>
+            <p class="opinionCard__div--p">this coffee shop is very convenient</p>
+          </div>
+        </div>
+        <div class="opinionCard ml-[40.76px] mr-[80px]">
+          <img class="w-[214px] h-[279px]" src="./assets/opinion3.png">
+          <div class="opinionCard__div">
+            <h5 class="pl-[18px]">Azura</h5>
+            <p class="opinionCard__div--p">the coffee menu here is very much</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </section>
-  <footer>
-    <h2>Subscribe to get 50% discount price</h2>
-    <div>
-      <input type="text" />
-      <button type="button">Order now</button>
+  <footer class="flex justify-center py-[120px]">
+    <div class="bg-footerImg w-full h-full flex flex-col justify-center items-center">
+      <h2 class="text-white text-[32px] mb-[26px] pt-[133px] px-[273px]">Subscribe to get 50% discount price</h2>
+      <div class="bg-white w-[486px] p-[5px] h-[44px] flex justify-between rounded-[42px]">
+        <input class="w-full rounded-l-[42px]" placeholder="Email adress" type="text">
+        <button class="w-[138px] bg-brown text-[14px] rounded-[33px]" type="submit">Order now</button>
+      </div>
     </div>
   </footer>
 </body>
