@@ -6,6 +6,7 @@ module.exports = {
       'body':['"Poppins"', 'sans-serif']
     },
     colors:{
+      'inherit':'inherit',
       'softPink':'#f6ebda',
       'orange':'#ff902b',
       'softOrange':'f9d9aa',
@@ -14,6 +15,7 @@ module.exports = {
       'white':'#ffffff',
       'yellow':'#f4ae26',
       'black':'#000000',
+      'semiBlack':'#2f2105',
       'opinionBorderCard':'rgba(255, 211, 144, 0.62)',
       'opinionP':'#ffcb7c'
     },
@@ -32,6 +34,9 @@ module.exports = {
       },
       backgroundSize:{
         '70%':'70%'
+      },
+      screens:{
+        'xsm': '320px'
       }
     },
   },
