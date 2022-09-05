@@ -11,24 +11,24 @@ h2{
 p{
   @apply text-[18px] 
 }
+.gradientBorder{
+  @apply mx-auto bg-gradient-to-r from-white/70 to-white/40 absolute
+}
 .nav{
-  @apply w-full flex justify-around items-center md:mt-[24px] lg:mt-[36px] z-10
+  @apply z-10 w-full flex items-center lg:mt-[36px] lg:justify-around xl:justify-center   
 }
 .menu__item {
-  @apply text-[18px] lg:px-4 
-}
-.menu__input{
-  @apply md:w-[148px] md:h-[26.7px] md:rounded-[23.34px] lg:h-[40px] lg:rounded-[35px] lg:w-[222px]
+  @apply text-[18px] 
 }
 .section1__container--content{
-  @apply flex flex-col text-center items-center md:items-start
-   md:w-[326px] md:text-left lg:w-[489px] lg:ml-[135px] mt-[52px] lg:mt-[104px] 
+  @apply flex flex-col text-center items-center md:items-start mt-[140px] 
+  lg:text-left lg:max-w-[489px] lg:ml-[67.5px] xl:ml-[135px] 
 }
 .section1__container--img{
-  @apply flex flex-col justify-center mt-[26px] w-4/5 h-4/5
+  @apply mx-auto w-4/5 h-4/5
    xsm:w-[277px] xsm:h-[277px]
-   lg:w-[312px] lg:h-[312px] lg:mt-[76px] lg:mr-[158.3px]
-   xl:w-[416px] xl:h-[416px]
+   md:w-[312px] md:h-[312px]
+   lg:w-[416px] lg:h-[416px]
 }
 .title{
   @apply text-brown font-semibold text-[48px] pb-[24px] 
@@ -37,7 +37,7 @@ p{
   @apply bg-white max-w-[355px] border-[6px] rounded-[12px] border-white/40 z-20 flex flex-col items-center
 }
 .card__img{
-  @apply pt-[24px] w-full 
+  @apply pt-[24px] px-[18px] w-full rounded-[12px]
 }
 .card__body{
   @apply flex w-full justify-between pt-[19px] items-center px-[30px]

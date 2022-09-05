@@ -13,262 +13,300 @@
 </head>
 
 <body>
-  <div class="max-w-[1440px]">
-    <header class="bg-softPink hidden md:flex md:justify-center relative">
-      <nav class="nav hidden">
-        <div>
-          <img src="./assets/logo_coffe.png">
+  <div class="">
+  <div class="bg-softPink w-full">
+    <div class="max-w-[1440px] mx-auto">
+      <header class="hidden lg:flex lg:justify-center relative">
+        <nav class="nav hidden">
+          <div>
+            <img src="./assets/logo_coffe.png">
+          </div>
+          <div class="flex gap-[16px] xl:ml-[269px] xl:mr-[142px]">
+            <a class="menu__item text-orange" href="#">About us</a>
+            <a class="menu__item" href="#">Our product</a>
+            <a class="menu__item" href="#">Delivery</a>
+          </div>
+          <div class="flex">
+            <div class="flex bg-white rounded-[35px] py-[8px] pl-[12px] w-[222px]">
+              <img class="w-[24px] h-[24px]" src="./assets/searchIcon.svg">
+              <input type="text" placeholder="Capuccino">
+            </div>
+            <img class="ml-[24px]" src="./assets/cartIconMenu.svg" alt="Cart icon">
+          </div>
+        </nav>
+        <img
+          class="hidden lg:block absolute top-0 right-0 max-w-[518px] xl:top-[-20px] xl:right-[-20px]"
+          src="./assets/coffeBean.png">
+      </header>
+      <section class="bg-softPink flex flex-col items-center lg:items-start lg:flex-row lg:justify-between">
+        <div class="section1__container--content">
+          <h1 class="title">
+            Enjoy your
+            <span class="text-orange">coffee</span> before
+            your activity
+          </h1>
+          <p class="lg:pb-[32px] text-gray w-3/4 md:w-full">
+            Boost your productivity and build your mood with a glass of coffee in
+            the morning
+          </p>
+          <div class="hidden lg:flex items-center">
+            <button type="button"
+              class="bg-brown rounded-[33px] text-white w-[170px] h-[46px] px-[32px] py-[12px] font-semibold text-[14px] flex justify-center gap-[10px]">Order
+              now
+              <img src="./assets/cartIcon.svg"></button>
+            <a class="w-[70px] ml-[50px] text-yellow font-bold text-[12px]">More
+              menu</a>
+          </div>
         </div>
-        <div class="flex gap-[16px]">
-          <a class="menu__item text-orange" href="">About us</a>
-          <a class="menu__item" href="">Our product</a>
-          <a class="menu__item" href="">Delivery</a>
+        <div class="z-10">
+          <div class="mb-[32px] mx-auto relative mt-[82px] lg:mb-0 lg:mr-[79.15px] xl:mr-[158.3px]">
+            <div
+              class="gradientBorder rounded-[42px] p-[6px] top-[25px] left-[-74.74px]">
+              <p class="font-semibold bg-white py-[14px] text-center w-[271px] rounded-[42px] text-brown text-[24px]">
+                Capuccino</p>
+            </div>
+            <div
+              class="mx-auto bg-gradient-to-r from-white/40 to-white/70 rounded-[42px] absolute p-[6px] top-[88px] right-[-35.97px]">
+              <div class="bg-white rounded-[42px] w-[133.48px] flex items-center justify-center">
+                <p class="font-semibold py-[14px] text-brown text-[24px]">
+                  4.8</p>
+                <img class="w-[24px] h-[24px]" src="/assets/starIcon.svg">
+              </div>
+            </div>
+            <div
+              class="gradientBorder rounded-[42px] p-[6px] left-[15.26px] bottom-[23px]">
+              <p class="font-semibold bg-white py-[14px] text-center w-[141px] rounded-[42px] text-brown text-[24px]">18K</p>
+            </div>
+            <img class="section1__container--img" src="./assets/classicCoffe.png">
+          </div>
+          <div class="lg:hidden">
+            <button type="button"
+              class="bg-brown rounded-[33px] text-white w-[170px] h-[46px] px-[32px] py-[12px] font-semibold text-[14px] flex justify-center gap-[10px]">Order
+              now
+              <img src="./assets/cartIcon.svg"></button>
+            <a href="#" class="w-[70px] ml-[50px] text-yellow font-bold text-[12px]">More
+              menu</a>
+          </div>
         </div>
-        <div class="h-full">
-          <input class="menu__input" type="text" placeholder="Capuccino" />
-        </div>
-      </nav>
-      <img class="hidden md:block absolute top-0 right-0 max-h-[360px] max-w-[518px] " src="./assets/coffeBeanCrop.png">
-    </header>
-    <section class="bg-softPink flex flex-col items-center lg:flex-row lg:justify-between">
-      <div class="section1__container--content">
-        <h1 class="title">
-          Enjoy your
-          <span class="text-orange">coffe</span> before
-          your activity
-        </h1>
-        <p class="lg:pb-[32px] text-gray w-3/4 md:w-full">
-          Boost your productivity and build your mood with a glass of coffee in
-          the morning
-        </p>
-        <div class="hidden lg:block">
-          <button type="button"
-            class="bg-brown rounded-[33px] text-white w-[170px] h-[46px] px-[32px] py-[12px] font-semibold text-[14px]">Order
-            now</button>
-          <a class="w-[70px] ml-[50px] text-yellow font-bold text-[12px]">More
-            menu</a>
-        </div>
-      </div>
-      <div class="z-10">
-        <div class="section1__container--img mb-[32px] mx-auto lg:mb-0 lg:shrink-0">
-          <img src="./assets/classicCoffe.png">
-        </div>
-        <div class="lg:hidden">
-          <button type="button"
-            class="bg-brown rounded-[33px] text-white w-[170px] h-[46px] px-[32px] py-[12px] font-semibold text-[14px]">Order
-            now</button>
-          <a class="w-[70px] ml-[50px] text-yellow font-bold text-[12px]">More
-            menu</a>
-        </div>
-      </div>
-    </section>
-    <div>
-      <img class="hidden lg:block absolute left-0 mt-[-40px] md:h-[394px] w-[569px]  lg:mt-[40px]"
-        src="./assets/coffeBean.png">
     </div>
-    <section class="bg-softPink lg:h-[415px]">
-      <div class="lg:ml-[135px] pb-[32px] pt-[71.5px] lg:pt-[143px] z-10">
-        <h2 class="text-[24px] text-center lg:text-left xl:text-[32px]">Popular <span
-            class="underline decoration-orange">Now</span></h2>
-      </div>
     </section>
-    <section>
-      <div
-        class="w-full flex flex-col gap-[19px] justify-center items-center lg:flex-row bg-softPink xl:bg-inherit lg:mt-[-192.5px]">
-        <div class="card shadow-popCard">
+    <div class="max-w-[1440px] mx-auto">
+      <section class="bg-softPink lg:h-[415px] relative">
+        <img class="hidden lg:block absolute left-0 mt-[-40px] max-w-[569px]  lg:mt-[40px]"
+          src="./assets/coffeBean.png">
+        <div class="lg:ml-[67.5px] xl:ml-[135px] pb-[32px] pt-[71.5px] lg:pt-[143px] z-10">
+          <h2 class="text-[32px] text-center lg:text-left">Popular <span class="underline decoration-orange">Now</span>
+          </h2>
+        </div>
+      </section>
+    </div>
+  </div>
+  <section>
+    <div
+      class="w-full flex flex-col gap-[38px] lg:gap-[19px] xl:gap-[38px] justify-center items-center lg:flex-row bg-softPink xl:bg-inherit lg:mt-[-192.5px]">
+      <div class="card shadow-popCard">
+        <div class="relative">
           <img class="card__img" src="./assets/vanillaLatte.png">
-          <div class="card__body">
-            <h5 class="card__body--title">Vanilla Latte</h5>
-            <p>21K</p>
-          </div>
-          <div class="w-full pl-[30px] pb-[30px] pt-[12px]">
-            <button class="card__div--btn">Hot</button>
-            <button class="card__div--btn">Cold</button>
+        </img>
+          <div class="gradientBorder p-[4px] top-0 left-0">
+              <p>4.8</p>
           </div>
         </div>
-        <div class="card shadow-popCard">
-          <img class="card__img" src="./assets/espresso.png">
+        <div class="card__body">
+          <h5 class="card__body--title">Vanilla Latte</h5>
+          <p>21K</p>
+        </div>
+        <div class="w-full pl-[30px] pb-[30px] pt-[12px]">
+          <button class="card__div--btn">Hot</button>
+          <button class="card__div--btn">Cold</button>
+        </div>
+      </div>
+      <div class="card shadow-popCard">
+        <img class="card__img" src="./assets/espresso.png">
+        <div class="card__body">
+          <h5 class="card__body--title">Espresso</h5>
+          <p>12K</p>
+        </div>
+        <div class="w-full pl-[30px] pb-[30px] pt-[12px]">
+          <button class="card__div--btn">Hot</button>
+          <button class="card__div--btn">Cold</button>
+        </div>
+      </div>
+      <div class="card shadow-popCard">
+        <img class="card__img" src="./assets/hazelnutLatte.png">
+        <div class="card__body">
+          <h5 class="card__body--title">Hazelnut Latte</h5>
+          <p>23K</p>
+        </div>
+        <div class="w-full pl-[30px] pb-[30px] pt-[12px]">
+          <button class="card__div--btn">Hot</button>
+          <button class="card__div--btn">Cold</button>
+        </div>
+      </div>
+      <img class="hidden absolute mt-[87px] lg:block" src="./assets/Rectangle 2.png">
+    </div>
+  </section>
+  <section>
+    <div class="mt-[207px]">
+      <h2 class="text-[32px] text-center lg:ml-[67.5px] lg:text-left xl:ml-[135px]">How to use delivery <span
+          class="underline decoration-orange">service</span>
+      </h2>
+      <div class="flex flex-col lg:flex-row justify-center items-center pb-[208px]">
+        <div class="delliverCard">
+          <img src="./assets/chooseCoffeLogo.png">
+          <div class="deliverCard__body">
+            <h5 class="card__body--title">Choose your coffe</h5>
+            <p class="text-[18px]">there are 20+ coffees for you</p>
+          </div>
+        </div>
+        <div class="delliverCard">
+          <img src="./assets/foodTruck.png">
+          <div class="deliverCard__body">
+            <h5 class="card__body--title">we delivery it to you</h5>
+            <p class="text-[18px]">Choose delivery service</p>
+          </div>
+        </div>
+        <div class="delliverCard">
+          <img src="./assets/coffeeCup.png">
+          <div class="deliverCard__body">
+            <h5 class="card__body--title">Enjoy your coffee</h5>
+            <p class="text-[18px]">Enjoy with the bests coffes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-about md:bg-contain items-center lg:bg-cover flex flex-col lg:flex-row lg:justify-around">
+    <img class="mt-[-88px] pb-[62.78px] w-full max-w-[360px]" src="./assets/aboutCoffe.png">
+    <div class="flex flex-col justify-center items-center">
+      <div class="text-center lg:text-start max-w-[478px]">
+        <h2 class="text-[32px] pb-[23.75px]">About <span class="underline decoration-orange">us</span></h2>
+        <h3 class="font-semibold text-[24px] text-start lg:max-w-[348px] pb-[15.75px]">We provide quality coffee, and
+          ready to deliver.
+        </h3>
+        <p class="text-start pb-[31.74px]">
+          We are a company that makes and distributes delicious drinks. our main
+          product is made with a secret recipe and available in stores worldwide.
+        </p>
+        <button class="btn__aboutUs" type="button">Get your coffe</button>
+      </div>
+    </div>
+  </section>
+  <section>
+    <h2 class="text-[32px] mt-[120px] text-center lg:ml-[67.5px] lg:text-left xl:ml-[135px]">Special menu <span
+        class="underline decoration-orange">for
+        you</span>
+    </h2>
+    <div class="mt-[31.83px] flex justify-center pb-[60px] lg:pb-[120px]">
+      <div class="max-w-[1148px] block justify-items-center lg:grid lg:grid-cols-3 lg:grid-rows-2  lg:gap-[40px]">
+        <div class="card mb-[20px] shadow-specialCard">
+          <img class="card__img" src="./assets/sandwich.png">
           <div class="card__body">
-            <h5 class="card__body--title">Espresso</h5>
+            <h5 class="card__body--title">Sandwich</h5>
             <p>12K</p>
           </div>
-          <div class="w-full pl-[30px] pb-[30px] pt-[12px]">
-            <button class="card__div--btn">Hot</button>
-            <button class="card__div--btn">Cold</button>
+          <div class="w-full pl-[30px]">
+            <p class="specialCard__div--p">bread with meat and vegetables</p>
           </div>
         </div>
-        <div class="card shadow-popCard">
-          <img class="card__img" src="./assets/hazelnutLatte.png">
+        <div class="card mb-[20px] shadow-specialCard">
+          <img class="card__img" src="./assets/hotMilk.png">
           <div class="card__body">
-            <h5 class="card__body--title">Hazelnut Latte</h5>
-            <p>23K</p>
+            <h5 class="card__body--title">Hot Milk</h5>
+            <p>12K</p>
           </div>
-          <div class="w-full pl-[30px] pb-[30px] pt-[12px]">
-            <button class="card__div--btn">Hot</button>
-            <button class="card__div--btn">Cold</button>
-          </div>
-        </div>
-        <img class="hidden absolute mt-[87px] lg:block" src="./assets/Rectangle 2.png">
-      </div>
-    </section>
-    <section>
-      <div class="mt-[207px]">
-        <h2 class="text-[32px] text-center lg:text-left lg:ml-[135px]">How to use delivery <span class="underline decoration-orange">service</span>
-        </h2>
-        <div class="flex flex-col lg:flex-row justify-center items-center pb-[208px]">
-          <div class="delliverCard">
-            <img src="./assets/chooseCoffeLogo.png">
-            <div class="deliverCard__body">
-              <h5 class="card__body--title">Choose your coffe</h5>
-              <p class="text-[18px]">there are 20+ coffees for you</p>
-            </div>
-          </div>
-          <div class="delliverCard">
-            <img src="./assets/foodTruck.png">
-            <div class="deliverCard__body">
-              <h5 class="card__body--title">we delivery it to you</h5>
-              <p class="text-[18px]">Choose delivery service</p>
-            </div>
-          </div>
-          <div class="delliverCard">
-            <img src="./assets/coffeeCup.png">
-            <div class="deliverCard__body">
-              <h5 class="card__body--title">Enjoy your coffee</h5>
-              <p class="text-[18px]">Enjoy with the bests coffes</p>
-            </div>
+          <div class="w-full pl-[30px]">
+            <p class="specialCard__div--p">Hot Milk with less sugar</p>
           </div>
         </div>
-      </div>
-    </section>
-    <section class="bg-about md:bg-contain items-center lg:bg-cover flex flex-col lg:flex-row lg:justify-around">
-      <img class="mt-[-88px] pb-[62.78px] w-full max-w-[360px]" src="./assets/aboutCoffe.png">
-      <div class="flex flex-col justify-center items-center">
-        <div class="text-center lg:text-start max-w-[478px]">
-          <h2 class="text-[32px] pb-[23.75px]">About <span class="underline decoration-orange">us</span></h2>
-          <h3 class="font-semibold text-[24px] text-start lg:max-w-[348px] pb-[15.75px]">We provide quality coffee, and ready to deliver.
-          </h3>
-          <p class="text-start pb-[31.74px]">
-            We are a company that makes and distributes delicious drinks. our main
-            product is made with a secret recipe and available in stores worldwide.
-          </p>
-          <button class="btn__aboutUs" type="button">Get your coffe</button>
+        <div class="card mb-[20px] shadow-specialCard">
+          <img class="card__img" src="./assets/coffeeIceCream.png">
+          <div class="card__body">
+            <h5 class="card__body--title">Coffee Ice Cream</h5>
+            <p>12K</p>
+          </div>
+          <div class="w-full pl-[30px]">
+            <p class="specialCard__div--p">Coffee with ice cream vanilla</p>
+          </div>
         </div>
-      </div>
-    </section>
-    <section>
-      <h2 class="text-[32px] mt-[120px] text-center lg:text-left lg:ml-[135px]">Special menu <span class="underline decoration-orange">for
-          you</span>
-      </h2>
-      <div class="mt-[31.83px] flex justify-center pb-[60px] lg:pb-[120px]">
-        <div class="max-w-[1148px] block justify-items-center lg:grid lg:grid-cols-3 lg:grid-rows-2  lg:gap-[40px]">
-          <div class="card mb-[20px] shadow-specialCard">
-            <img class="card__img" src="./assets/sandwich.png">
-            <div class="card__body">
-              <h5 class="card__body--title">Sandwich</h5>
-              <p>12K</p>
-            </div>
-            <div class="w-full pl-[30px]">
-              <p class="specialCard__div--p">bread with meat and vegetables</p>
-            </div>
+        <div class="card mb-[20px] shadow-specialCard">
+          <img class="card__img" src="./assets/capuccino.png">
+          <div class="card__body">
+            <h5 class="card__body--title">Cappucino</h5>
+            <p>12K</p>
           </div>
-          <div class="card mb-[20px] shadow-specialCard">
-            <img class="card__img" src="./assets/hotMilk.png">
-            <div class="card__body">
-              <h5 class="card__body--title">Hot Milk</h5>
-              <p>12K</p>
-            </div>
-            <div class="w-full pl-[30px]">
-              <p class="specialCard__div--p">Hot Milk with less sugar</p>
-            </div>
+          <div class="w-full pl-[30px]">
+            <p class="specialCard__div--p">Hot Cappucino</p>
           </div>
-          <div class="card mb-[20px] shadow-specialCard">
-            <img class="card__img" src="./assets/coffeIceCream.png">
-            <div class="card__body">
-              <h5 class="card__body--title">Coffe Ice Cream</h5>
-              <p>12K</p>
-            </div>
-            <div class="w-full pl-[30px]">
-              <p class="specialCard__div--p">Coffe with ice cream vanilla</p>
-            </div>
+        </div>
+        <div class="card mb-[20px] shadow-specialCard">
+          <img class="card__img" src="./assets/mocaccino.png">
+          <div class="card__body">
+            <h5 class="card__body--title">Moccacinno</h5>
+            <p>12K</p>
           </div>
-          <div class="card mb-[20px] shadow-specialCard">
-            <img class="card__img" src="./assets/capuccino.png">
-            <div class="card__body">
-              <h5 class="card__body--title">Cappucino</h5>
-              <p>12K</p>
-            </div>
-            <div class="w-full pl-[30px]">
-              <p class="specialCard__div--p">Hot Cappucino</p>
-            </div>
+          <div class="w-full pl-[30px]">
+            <p class="specialCard__div--p">Hot Moccacino </p>
           </div>
-          <div class="card mb-[20px] shadow-specialCard">
-            <img class="card__img" src="./assets/mocaccino.png">
-            <div class="card__body">
-              <h5 class="card__body--title">Moccacinno</h5>
-              <p>12K</p>
-            </div>
-            <div class="w-full pl-[30px]">
-              <p class="specialCard__div--p">Hot Moccacino </p>
-            </div>
+        </div>
+        <div class="card mb-[20px] shadow-specialCard">
+          <img class="card__img" src="./assets/waffleIcreCream.png">
+          <div class="card__body">
+            <h5 class="card__body--title">Waffle Ice Crem</h5>
+            <p>12K</p>
           </div>
-          <div class="card mb-[20px] shadow-specialCard">
-            <img class="card__img" src="./assets/waffleIcreCream.png">
-            <div class="card__body">
-              <h5 class="card__body--title">Waffle Ice Crem</h5>
-              <p>12K</p>
-            </div>
-            <div class="w-full pl-[30px]">
-              <p class="specialCard__div--p">Wafle with Ice cream</p>
-            </div>
+          <div class="w-full pl-[30px]">
+            <p class="specialCard__div--p">Wafle with Ice cream</p>
           </div>
         </div>
       </div>
-    </section>
-    <section class="bg-opinion bg-repeat bg-70%">
-      <div class=" flex flex-col xl:ml-[135px] xl:flex-row xl:justify-between items-center py-[96px]">
-        <div class="max-w-[413px]">
-          <h2 class="text-[32px]">What they say about us</h2>
-          <p class="pt-[16px] text-gray max-w-[352px]">
-            We always provide the best service and always maintain the quality of
-            coffee
-          </p>
+    </div>
+  </section>
+  <section class="bg-opinion bg-repeat bg-70%">
+    <div class="flex flex-col lg:ml-[67.5px] xl:ml-[135px] xl:flex-row xl:justify-between items-center py-[96px]">
+      <div class="max-w-[413px]">
+        <h2 class="text-[32px]">What they say about us</h2>
+        <p class="pt-[16px] text-gray max-w-[352px]">
+          We always provide the best service and always maintain the quality of
+          coffee
+        </p>
+      </div>
+      <div class="flex flex-col lg:flex-row justify-between gap-[93.52px]">
+        <div class="opinionCard relative">
+          <img class="w-[214px] h-[279px]" src="./assets/opinion1.png">
+          <div class="opinionCard__div">
+            <h5 class="pl-[18px]">Naura</h5>
+            <p class="opinionCard__div--p">I really love the cappucino, the coffee was very smooth</p>
+          </div>
         </div>
-        <div class="flex flex-col lg:flex-row justify-between gap-[93.52px]">
-          <div class="opinionCard relative">
-            <img class="w-[214px] h-[279px]" src="./assets/opinion1.png">
-            <div class="opinionCard__div">
-              <h5 class="pl-[18px]">Naura</h5>
-              <p class="opinionCard__div--p">I really love the cappucino, the coffee was very smooth</p>
-            </div>
+        <div class="opinionCard relative">
+          <img class="w-[214px] h-[279px]" src="./assets/opinion2.png">
+          <div class="opinionCard__div">
+            <h5 class="pl-[18px]">John</h5>
+            <p class="opinionCard__div--p">this coffee shop is very convenient</p>
           </div>
-          <div class="opinionCard relative">
-            <img class="w-[214px] h-[279px]" src="./assets/opinion2.png">
-            <div class="opinionCard__div">
-              <h5 class="pl-[18px]">John</h5>
-              <p class="opinionCard__div--p">this coffee shop is very convenient</p>
-            </div>
-          </div>
-          <div class="opinionCard relative xl:mr-[80px]">
-            <img class="w-[214px] h-[279px]" src="./assets/opinion3.png">
-            <div class="opinionCard__div">
-              <h5 class="pl-[18px]">Azura</h5>
-              <p class="opinionCard__div--p">the coffee menu here is very much</p>
-            </div>
+        </div>
+        <div class="opinionCard relative xl:mr-[80px]">
+          <img class="w-[214px] h-[279px]" src="./assets/opinion3.png">
+          <div class="opinionCard__div">
+            <h5 class="pl-[18px]">Azura</h5>
+            <p class="opinionCard__div--p">the coffee menu here is very much</p>
           </div>
         </div>
       </div>
-    </section>
-    <footer class="flex justify-center lg:py-[120px]">
-      <div
-        class="bg-footerImg bg-cover bg-no-repeat flex flex-col justify-center items-center lg:rounded-[24px] w-full lg:mx-[135px]">
-        <h2 class="text-white text-[32px] mb-[26px] pt-[133px] text-center">Subscribe to get 50% discount price</h2>
-        <div class="bg-white max-w-[486px] p-[5px] h-[44px] flex justify-between rounded-[42px] mb-[131px]">
-          <input class="w-full rounded-l-[42px]" placeholder="Email adress" type="text">
-          <button class="w-[138px] bg-brown text-[14px] rounded-[33px] text-white" type="submit">Order now</button>
-        </div>
+    </div>
+  </section>
+  <footer class="flex justify-center lg:py-[120px]">
+    <div
+      class="bg-footerImg bg-cover bg-no-repeat flex flex-col justify-center items-center lg:rounded-[24px] w-full lg:mx-[135px]">
+      <h2 class="text-white text-[32px] mb-[26px] pt-[133px] text-center">Subscribe to get 50% discount price</h2>
+      <div class="bg-white max-w-[486px] p-[5px] h-[44px] flex justify-between rounded-[42px] mb-[131px]">
+        <input class="w-full rounded-l-[42px]" placeholder="Email adress" type="text">
+        <button class="w-[138px] bg-brown text-[14px] rounded-[33px] text-white" type="submit">Order now</button>
       </div>
-    </footer>
-  </div>
+    </div>
+  </footer>
+</div>
 </body>
 
 </html>

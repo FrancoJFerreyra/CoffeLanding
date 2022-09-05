@@ -21,7 +21,14 @@ module.exports = {
     },
     container:{
       center:true
-    },
+    },screens:{
+        'xsm': '320px',
+        'sm': '640px',
+        'md': '768px',
+        'lg': '1024px',
+        'xl': '1280px',
+        '2xl': '1536px',
+      },
     extend: {
       boxShadow:{
         'popCard': '0 10px 10px 10px rgba(0,0,0, 0.25)',
@@ -35,9 +42,7 @@ module.exports = {
       backgroundSize:{
         '70%':'70%'
       },
-      screens:{
-        'xsm': '320px'
-      }
+      
     },
   },
   plugins: [],
