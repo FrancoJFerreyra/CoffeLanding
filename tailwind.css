@@ -67,5 +67,5 @@ p{
   @apply w-[238.5px] border-[6px] border-opinionBorderCard rounded-[8px] mt-[-100.25px] ml-[36.6px] mb-[28.25px] bg-opinionP absolute
 }
 .opinionCard__div--p{
-  @apply pl-[18px] w-[213px] text-[14px]
+  @apply pl-[18px] max-w-[213px] text-[14px]
 }
