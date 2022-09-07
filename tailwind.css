@@ -11,12 +11,16 @@ h2{
 p{
   @apply text-[18px] 
 }
-.gradientBorder{
-  @apply mx-auto bg-gradient-to-r from-white/70 to-white/40 absolute
+img {
+  @apply inline;
 }
 .nav{
   @apply z-10 w-full flex items-center lg:mt-[36px] lg:justify-around xl:justify-center   
 }
+.navigation li {
+  @apply text-[18px] inline-block mx-2;
+}
+
 .menu__item {
   @apply text-[18px] 
 }
@@ -33,26 +37,8 @@ p{
 .title{
   @apply text-brown font-semibold text-[48px] pb-[24px] 
 } 
-.card{
-  @apply bg-white max-w-[355px] border-[6px] rounded-[12px] border-white/40 z-20 flex flex-col items-center
-}
-.card__img{
-  @apply pt-[24px] px-[18px] w-full rounded-[12px]
-}
-.card__body{
-  @apply flex w-full justify-between pt-[19px] items-center px-[30px]
-}
-.card__body--title{
-  @apply font-semibold text-semiBlack text-[24px];
-}
 .card__div--btn{
   @apply w-[64px] h-[32px] border-yellow border-2 text-yellow rounded-[8px] p-[10px] text-[16px] leading-[10px] font-semibold
-}
-.delliverCard{
-  @apply w-[370px] flex flex-col items-center mx-[30px] mt-[32px]
-}
-.deliverCard__body{
-  @apply pt-[17px] pb-[8px] w-full text-center
 }
 .btn__aboutUs{
   @apply w-[142px] h-[38px] text-yellow bg-brown rounded-[33px] text-[12px] font-bold

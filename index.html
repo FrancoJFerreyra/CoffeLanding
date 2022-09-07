@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="./css/tailwind.css" />
+  <link rel="stylesheet" href="./css/bootstrap.grid.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
@@ -13,10 +14,298 @@
 </head>
 
 <body>
-  <div class="">
-  <div class="bg-softPink w-full">
-    <div class="max-w-[1440px] mx-auto">
-      <header class="hidden lg:flex lg:justify-center relative">
+  <section class="bg-softPink relative">
+    <div class="bs-container-xl">
+      <header id="navigation" class="relative py-[34px] z-40">
+        <div id="logo" class="text-center lg:absolute">
+          <a href="#"><img src="./assets/logo_coffe.png" class="inline"></a>
+        </div>
+        <nav class="navigation text-center my-6 lg:my-0">
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Our product</a></li>
+            <li><a href="#">Delivery</a></li>
+          </ul>
+        </nav>
+        <div class="flex items-center lg:absolute lg:right-0 lg:top-7 justify-center">
+          <div class="flex bg-white rounded-[35px] py-[8px] pl-[12px] w-[222px]">
+            <img class="w-[24px] h-[24px]" src="./assets/searchIcon.svg">
+            <input type="text" placeholder="Capuccino">
+          </div>
+          <a href="#"><img class="ml-[24px]" src="./assets/cartIconMenu.svg" alt="Cart icon"></a>
+        </div>
+      </header>
+      <img class="hidden xl:block absolute top-0 right-0" src="./assets/coffeBean.png">
+      <div class="row">
+        <div class="col-md-6 col-12 text-center md:text-start">
+          <h1 class="title">
+            Enjoy your
+            <span class="text-orange">coffee</span> before
+            your activity
+          </h1>
+          <p class="pb-[32px] text-gray">
+            Boost your productivity and build your mood with a glass of coffee in
+            the morning
+          </p>
+          <div>
+            <button type="button"
+              class="bg-brown rounded-[33px] text-white h-[46px] px-[32px] py-[12px] font-semibold text-[14px]">Order
+              now
+              <img src="./assets/cartIcon.png" class="w-[22px] ml-2">
+            </button>
+            <a href="#" class="pt-[16px] md:pt-0 md:ml-[50px] block md:inline text-yellow font-bold text-[12px]">More
+              menu</a>
+          </div>
+        </div>
+        <div class="hidden md:block col-md-6 z-10">
+          <img src="./assets/classicCoffe.png">
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-softPink relative lg:h-[415px]">
+    <div class="bs-container-xl">
+      <img class="hidden xl:block absolute left-0 mt-[-40px] lg:mt-[40px]" src="./assets/coffeBean.png">
+      <div class="pb-[32px] pt-[143px] z-10">
+        <h2 class="text-[32px] text-center lg:text-left">Popular <span class="underline decoration-orange">Now</span>
+        </h2>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="bs-container-xl relative">
+      <div class="row md:flex-nowrap lg:-mt-[192.5px] justify-center">
+        <div class="col-12 col-md-4 z-20 md:p-[20px]">
+          <div class="h-full lg:bg-gradient-to-r lg:from-white/70 lg:to-white/40 lg:rounded-[12px] lg:p-[6px]">
+            <div class="h-full bg-white rounded-[12px] flex flex-col items-center shadow-card lg:shadow-none">
+              <div class="relative">
+                <img class="pt-[24px] px-[18px]" src="./assets/vanillaLatte.png">
+              </div>
+              <div class="row py-[19px] px-[30px] items-start gap-y-[12px]">
+                <h5 class="col-md-7 p-0 text-[24px] font-semibold text-brown">Vanilla Latte</h5>
+                <p class="col-md-5 p-0 text-[24px] text-end text-brown font-bold">21 K</p>
+                <div class="col-md-8 p-0">
+                  <button
+                    class="border-yellow border-2 text-yellow rounded-[8px] py-[4px] px-[17px] text-[16px] font-semibold mr-[24px]">Hot</button>
+                  <button
+                    class="border-yellow border-2 text-yellow rounded-[8px] py-[4px] px-[12px] text-[16px] font-semibold">Cold</button>
+                </div>
+                <div class="col-md-4 text-end p-0">
+                  <img class="w-[43px] h-[43px]" src="./assets/cartIcon.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 z-20 md:p-[20px]">
+          <div class="h-full lg:bg-gradient-to-r lg:from-white/70 lg:to-white/40 lg:rounded-[12px] lg:p-[6px]">
+            <div class="bg-white h-full rounded-[12px] flex flex-col items-center shadow-card lg:shadow-none">
+              <div class="relative">
+                <img class="pt-[24px] px-[18px]" src="./assets/espresso.png">
+              </div>
+              <div class="row py-[19px] px-[30px] items-start gap-y-[12px]">
+                <h5 class="col-md-7 p-0 text-[24px] font-semibold text-brown">Espresso</h5>
+                <p class="col-md-5 p-0 text-[24px] text-end text-brown font-bold">12 K</p>
+                <div class="col-md-8 p-0">
+                  <button
+                    class="border-yellow border-2 text-yellow rounded-[8px] py-[4px] px-[17px] text-[16px] font-semibold mr-[24px]">Hot</button>
+                  <button
+                    class="border-yellow border-2 text-yellow rounded-[8px] py-[4px] px-[12px] text-[16px] font-semibold">Cold</button>
+                </div>
+                <div class="col-md-4 text-end p-0">
+                  <img class="w-[43px] h-[43px]" src="./assets/cartIcon.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 z-20 md:p-[20px]">
+          <div class="h-full lg:bg-gradient-to-r lg:from-white/70 lg:to-white/40 lg:rounded-[12px] lg:p-[6px]">
+            <div class="bg-white h-full rounded-[12px] flex flex-col items-center shadow-card lg:shadow-none">
+              <div class="relative">
+                <img class="pt-[24px] px-[18px]" src="./assets/hazelnutLatte.png">
+              </div>
+              <div class="row py-[19px] px-[30px] items-start gap-y-[12px]">
+                <h5 class="col-md-7 p-0 text-[24px] font-semibold text-brown">Hazelnut Latte</h5>
+                <p class="col-md-5 p-0 text-[24px] text-end text-brown font-bold">23 K</p>
+                <div class="col-md-8 p-0">
+                  <button
+                    class="border-yellow border-2 text-yellow rounded-[8px] py-[4px] px-[17px] text-[16px] font-semibold mr-[24px]">Hot</button>
+                  <button
+                    class="border-yellow border-2 text-yellow rounded-[8px] py-[4px] px-[12px] text-[16px] font-semibold">Cold</button>
+                </div>
+                <div class="col-md-4 text-end p-0">
+                  <img class="w-[43px] h-[43px]" src="./assets/cartIcon.png">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="z-10 hidden absolute left-0 top-[105px] w-full lg:block" src="./assets/Rectangle 2.png">
+    </div>
+    </div>
+  </section>
+  <section>
+    <div class="bs-container-xl">
+      <div class="mt-[120px]">
+        <h2 class="text-[32px] text-center lg:text-left">How to use delivery <span
+            class="underline decoration-orange">service</span>
+        </h2>
+        <div class="row mb-[120px]">
+          <div class="col-12 col-md-4">
+            <div class="flex flex-col items-center mt-[32px]">
+              <img src="./assets/chooseCoffeLogo.png">
+              <div class="pt-[17px] pb-[8px] w-full text-center">
+                <h5 class="text-[24px] font-semibold text-brown">Choose your coffe</h5>
+                <p class="text-[18px]">there are 20+ coffees for you</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 ">
+            <div class="flex flex-col items-center mt-[32px]">
+              <img src="./assets/foodTruck.png">
+              <div class="pt-[17px] pb-[8px] w-full text-center">
+                <h5 class="text-[24px] font-semibold text-brown">we delivery it to you</h5>
+                <p class="text-[18px]">Choose delivery service</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="flex flex-col items-center mt-[32px]">
+              <img src="./assets/coffeeCup.png">
+              <div class="pt-[17px] pb-[8px] w-full text-center">
+                <h5 class="text-[24px] font-semibold text-brown">Enjoy your coffee</h5>
+                <p class="text-[18px]">Enjoy with the bests coffes</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-about bg-cover">
+    <div class="bs-container-xl">
+      <div class="row items-center justify-center">
+        <div class="col-12 flex justify-center col-md-6 -mt-[88px]">
+          <img src="./assets/aboutCoffe.png" alt="Coffee">
+        </div>
+        <div class="col-12 col-md-6 text-center mt-[34px] md:mt-0 md:text-start">
+          <h2 class="text-[32px] pb-[23.75px]">About <span class="underline decoration-orange">us</span></h2>
+          <h3 class="font-semibold text-[24px] pb-[15.75px]">We provide quality coffee, and
+            ready to deliver.
+          </h3>
+          <p class="pb-[31.74px]">
+            We are a company that makes and distributes delicious drinks. our main
+            product is made with a secret recipe and available in stores worldwide.
+          </p>
+          <button class="btn__aboutUs" type="button">Get your coffe</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="bs-container-xl">
+      <h2 class="text-[32px] mt-[120px] text-center lg:ml-[67.5px] lg:text-left xl:ml-[135px]">Special menu <span
+          class="underline decoration-orange">for
+          you</span>
+      </h2>
+      <div class="row pt-[31.83px] pb-[120px]">
+        <div class="col-md-4 mb-[20px] md:p-[20px]">
+          <div class="h-full rounded-[12px] flex flex-col items-center shadow-specialCard">
+            <img class="pt-[24px] px-[18px]" src="./assets/sandwich.png">
+            <div class="row text-end py-[19px] px-[30px] gap-y-[16px] items-center">
+              <h5 class="col-7 text-[24px] text-start font-semibold text-brown">Sandwich</h5>
+              <p class="col-5 text-[24px] font-bold text-brown">12 K</p>
+              <p class="col-8 text-[14px] text-start font-semibold text-gray pt-[5px]">Bread with meat and
+                vegetables</p>
+              <div class="col-4">
+                <img class="w-[43px] h-[43px]" src="./assets/cartIcon.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-[20px] md:p-[20px]">
+          <div class="h-full rounded-[12px] flex flex-col items-center shadow-specialCard">
+            <img class="pt-[24px] px-[18px" src="./assets/hotMilk.png">
+            <div class="row text-end py-[19px] px-[30px] gap-y-[16px] items-center">
+              <h5 class="col-7 text-[24px] text-start font-semibold text-brown">Hot Milk</h5>
+              <p class="col-5 text-[24px] font-bold text-brown">12 K</p>
+              <p class="col-8 text-[14px] text-start font-semibold text-gray pt-[5px]">Hot Milk with less
+                sugar
+              </p>
+              <div class="col-4">
+                <img class="w-[43px] h-[43px]" src="./assets/cartIcon.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-[20px] md:p-[20px]">
+          <div class="h-full rounded-[12px] flex flex-col items-center shadow-specialCard">
+            <img class="pt-[24px] px-[18px" src="./assets/coffeeIcream.png">
+            <div class="row text-end py-[19px] px-[30px] gap-y-[16px] items-center">
+              <h5 class="col-7 text-[24px] text-start font-semibold text-brown">Coffe Ice Cream</h5>
+              <p class="col-5 text-[24px] font-bold text-brown">12 K</p>
+              <p class="col-8 text-[14px] text-start font-semibold text-gray pt-[5px]">Coffee with ice cream
+                vanilla</p>
+              <div class="col-4">
+                <img class="w-[43px] h-[43px]" src="./assets/cartIcon.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-[20px] md:p-[20px]">
+          <div class="h-full rounded-[12px] flex flex-col items-center shadow-specialCard">
+            <img class="pt-[24px] px-[18px" src="./assets/capuccino.png">
+            <div class="row text-end py-[19px] px-[30px] gap-y-[16px] items-center">
+              <h5 class="col-7 text-[24px] text-start font-semibold text-brown">Capuccino</h5>
+              <p class="col-5 text-[24px] font-bold text-brown">12 K</p>
+              <p class="col-8 text-[14px] text-start font-semibold text-gray pt-[5px]">Hot Cappucino</p>
+              <div class="col-4">
+                <img class="w-[43px] h-[43px]" src="./assets/cartIcon.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-[20px] md:p-[20px]">
+          <div class="h-full rounded-[12px] flex flex-col items-center shadow-specialCard">
+            <img class="pt-[24px] px-[18px" src="./assets/mocaccino.png">
+            <div class="row text-end py-[19px] px-[30px] gap-y-[16px] items-center">
+              <h5 class="col-7 text-[24px] text-start font-semibold text-brown">Moccacinno</h5>
+              <p class="col-5 text-[24px] font-bold text-brown">12 K</p>
+              <p class="col-8 text-[14px] text-start font-semibold text-gray pt-[5px]">Hot Moccacino </p>
+              <div class="col-4">
+                <img class="w-[43px] h-[43px]" src="./assets/cartIcon.png">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-[20px] md:p-[20px]">
+          <div class="h-full rounded-[12px] flex flex-col items-center shadow-specialCard">
+            <img class="pt-[24px] px-[18px" src="./assets/waffleIceCream.png">
+            <div class="row text-end py-[19px] px-[30px] gap-y-[16px] items-center">
+              <h5 class="col-7 text-[24px] text-start font-semibold text-brown">Waffle Ice Crem</h5>
+              <p class="col-5 text-[24px] font-bold text-brown">12 K</p>
+              <p class="col-8 text-[14px] text-start font-semibold text-gray pt-[5px]">Wafle with Ice cream
+              </p>
+              <div class="col-4">
+                <img class="w-[43px] h-[43px]" src="./assets/cartIcon.png">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <div class="container mx-auto bg-softPink">
+    <!-- <div class=" w-full"> -->
+    <div class="max-w-[1170px] mx-auto">
+      <header class="columns-12 hidden lg:flex lg:justify-center relative">
         <nav class="nav hidden">
           <div>
             <img src="./assets/logo_coffe.png">
@@ -34,8 +323,7 @@
             <img class="ml-[24px]" src="./assets/cartIconMenu.svg" alt="Cart icon">
           </div>
         </nav>
-        <img
-          class="hidden lg:block absolute top-0 right-0 max-w-[518px] xl:top-[-20px] xl:right-[-20px]"
+        <img class="hidden lg:block absolute top-0 right-0 max-w-[518px] xl:top-[-20px] xl:right-[-20px]"
           src="./assets/coffeBean.png">
       </header>
       <section class="bg-softPink flex flex-col items-center lg:items-start lg:flex-row lg:justify-between">
@@ -59,9 +347,9 @@
           </div>
         </div>
         <div class="z-10">
-          <div class="mb-[32px] mx-auto relative mt-[82px] lg:mb-0 lg:mr-[79.15px] xl:mr-[158.3px]">
-            <div
-              class="gradientBorder rounded-[42px] p-[6px] top-[25px] left-[-74.74px]">
+          <!-- lg:mr-[79.15px] xl:mr-[158.3px] -->
+          <div class="mb-[32px] mx-auto relative mt-[82px] lg:mb-0 ">
+            <div class="gradientBorder rounded-[42px] p-[6px] top-[25px] left-[-74.74px]">
               <p class="font-semibold bg-white py-[14px] text-center w-[271px] rounded-[42px] text-brown text-[24px]">
                 Capuccino</p>
             </div>
@@ -73,9 +361,9 @@
                 <img class="w-[24px] h-[24px]" src="/assets/starIcon.svg">
               </div>
             </div>
-            <div
-              class="gradientBorder rounded-[42px] p-[6px] left-[15.26px] bottom-[23px]">
-              <p class="font-semibold bg-white py-[14px] text-center w-[141px] rounded-[42px] text-brown text-[24px]">18K</p>
+            <div class="gradientBorder rounded-[42px] p-[6px] left-[15.26px] bottom-[23px]">
+              <p class="font-semibold bg-white py-[14px] text-center w-[141px] rounded-[42px] text-brown text-[24px]">
+                18K</p>
             </div>
             <img class="section1__container--img" src="./assets/classicCoffe.png">
           </div>
@@ -87,9 +375,9 @@
             <a href="#" class="w-[70px] ml-[50px] text-yellow font-bold text-[12px]">More
               menu</a>
           </div>
+          <!-- </div> -->
         </div>
-    </div>
-    </section>
+        <!-- </section>
     <div class="max-w-[1440px] mx-auto">
       <section class="bg-softPink lg:h-[415px] relative">
         <img class="hidden lg:block absolute left-0 mt-[-40px] max-w-[569px]  lg:mt-[40px]"
@@ -305,8 +593,8 @@
         <button class="w-[138px] bg-brown text-[14px] rounded-[33px] text-white" type="submit">Order now</button>
       </div>
     </div>
-  </footer>
-</div>
+  </footer> -->
+    </div>
 </body>
 
 </html>
