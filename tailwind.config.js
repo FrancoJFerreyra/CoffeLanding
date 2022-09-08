@@ -19,6 +19,7 @@ module.exports = {
       semiBlack: '#2f2105',
       opinionBorderCard: 'rgba(255, 211, 144, 0.62)',
       opinionP: '#ffcb7c',
+      transparent: 'transparent'
     },
     container: {
       center: true,
